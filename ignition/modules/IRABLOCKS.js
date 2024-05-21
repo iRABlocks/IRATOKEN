@@ -1,8 +1,8 @@
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-module.exports = buildModule("BlocksModule", (m) => {
+module.exports = buildModule("iRABLOCKSModule", (m) => {
 
-  const iRABlocks = m.contract("Blocks", []);
+  const iRABlocks = m.contract("iRABLOCKS", []);
 
   return { iRABlocks };
 });

@@ -10,4 +10,8 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
+
+bsc deploy
+npx hardhat ignition deploy .\ignition\modules\IRABLOCKS.js --network testnet
+npx hardhat ignition deploy .\ignition\modules\IRABLOCKS.js --network mainnet
 ```
