@@ -28,4 +28,4 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js --network mainnet
 
 ## License
 
-[MIT LICENSE](LICENSE)
+[MIT LICENSE](LICENSE.md)
